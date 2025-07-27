@@ -32,8 +32,7 @@ color: #8987A1;
     color: #000000;
 }
 .flower-title{
-    
-        
+    max-width: 1140px; 
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
@@ -60,15 +59,42 @@ color: #8987A1;
     }
 
    .container{
-        max-width: 1280px;
+        max-width: 1140px;
         margin:auto
    } 
    .hero-p{
     color: rgba(0, 0, 0, 1);
+    max-width: 6    5%;
    }
    .banner-left{
-    margin-top: 0px;
+    margin-top: 90px;
    }
+   .hero-title{
+    font-weight: bold;
+    font-size: 4rem;
+   }
+
+   /*plants*/
+   .plants{
+    max-width: 1140px;
+        margin:auto;
+   }
+   /*h2*/
+   .plants-title{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+   }
+   .plants-p{
+    text-align: center;
+   }
+
+   .plant-rose{
+
+        justify-content: center;
+        align-items: center;
+   }
+
 @media screen and (max-width:576) {
     .flower-title, .flower-list {
         flex-direction: row;
