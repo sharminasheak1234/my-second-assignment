@@ -12,9 +12,16 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 /*nato-serif-color*/
 .always{
     color: #E95A08;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 .display-flex{
     display: flex;
@@ -64,7 +71,8 @@ color: #8987A1;
    } 
    .hero-p{
     color: rgba(0, 0, 0, 1);
-    max-width: 6    5%;
+    max-width: 65%;
+    font-size: 1rem;
    }
    .banner-left{
     margin-top: 90px;
@@ -87,6 +95,10 @@ color: #8987A1;
    }
    .plants-p{
     text-align: center;
+    font-size: 1rem;
+    max-width: 880px;
+    margin-left: 50px;
+    padding-left: 40px;
    }
 
    .plant-rose{
