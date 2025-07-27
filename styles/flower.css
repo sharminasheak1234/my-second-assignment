@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/*nato-serif-color*/
+.always{
+    color: #E95A08;
+}
+.display-flex{
+    display: flex;
+}
+
+.gray-font{
+color: #8987A1;
+}
+
+.bold-font{
+ color: #252432;
+ font-weight: bold;
+}
+.cart-font{
+    color: #000000;
+}
+.flower-title{
+    
+        
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.flower-anchor{
+   text-decoration: none; 
+}
+.flower-list{
+   list-style: none;
+   margin-right: 70px;
+   gap: 10px;
+     
+}
+.logo{
+    width: 135;
+    padding-left: 80px;
+
+}
+/*banner*/
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .container{
+        max-width: 1280px;
+        margin:auto
+   } 
+   .hero-p{
+    color: rgba(0, 0, 0, 1);
+   }
+   .banner-left{
+    margin-top: 0px;
+   }
+@media screen and (max-width:576) {
+    .flower-title, .flower-list {
+        flex-direction: row;
+    }
+    .hidden{
+        display: none;
+}
+
+.hero-container {
+        flex-direction: column;
+}
