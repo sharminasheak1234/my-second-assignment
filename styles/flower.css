@@ -4,6 +4,9 @@
     padding: 0;
     margin: 0;
 }
+/*.flowers{
+    max-width: 1140px;
+}*/
 .noto-serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -106,7 +109,36 @@ color: #8987A1;
         justify-content: center;
         align-items: center;
    }
+   /*card*/
 
+   
+   .card{
+    width: 270px;
+    height: 484px;
+    text-align: center;
+   }
+
+   .btn{
+    background-color: #E95A08;
+    color: white;
+    padding: 20px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    width: 270px;
+    height: 50px;
+   }
+   .card-container{
+       
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       margin-left: 90px;
+       margin-right: 70px;
+   }
+    
+   /*.card-img{
+    width: 100%;
+   }*/
 @media screen and (max-width:576) {
     .flower-title, .flower-list {
         flex-direction: row;
