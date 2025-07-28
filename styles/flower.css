@@ -139,6 +139,42 @@ color: #8987A1;
    /*.card-img{
     width: 100%;
    }*/
+
+   /*plant-lover*/
+
+   .lover-l{
+    color: rgba(0, 0, 0, 1);
+    max-width: 65%;
+    font-size: 1rem;
+   }
+   .lover-text{
+    max-width: 540px;
+    height: auto;
+    padding: 30px;
+   }
+   .lover-img{
+    max-width: 570px;
+    height: 400px
+   }
+   .flower-plants{
+    font-size: 2rem;
+    font-weight: bold;
+
+   }
+   .plant-lover{
+    display: flex;
+    gap: 50px;
+    max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   }
+   .badge{
+    max-width: 15%;
+    height: auto;
+    margin-left: -120px;
+    margin-top: -400px;
+   }
 @media screen and (max-width:576) {
     .flower-title, .flower-list {
         flex-direction: row;
