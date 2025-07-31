@@ -26,6 +26,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+h4{
+    display: inline-block;
+}
 .display-flex{
     display: flex;
 }
@@ -261,7 +264,60 @@ color: #8987A1;
     align-items: center;
     gap: 20px;
    }
-@media screen and (max-width:576) {
+   /*colorful-bunch*/
+   .colorful-bunch{
+    background-image: url(../image/news-letter-bg.png);
+    background-repeat: no-repeat;
+   max-width: 90%;
+   height: 400px;
+   border-radius: 15px;
+   text-align: center;
+   display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-left: 70px;
+   }
+   .bunch-i{
+    padding: 20px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    width: 400px;
+    height: 50px;
+   }
+   .btn-bunch{
+    background-color: #E95A08;
+    color: white;
+    padding: 20px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    width: 270px;
+    height: 50px;
+   }
+   /*footer*/
+   .footer-l1{
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+   }
+   .footer-img{
+
+   }
+   .f-flower{
+    max-width: 1140px;
+    flex: 1;
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
+    height: auto;
+    
+   }
+@media (max-width: 576px)
+ {
     .flower-title, .flower-list {
         flex-direction: row;
     }
@@ -271,4 +327,21 @@ color: #8987A1;
 
 .hero-container {
         flex-direction: column;
+}
+/*badge*/
+.badge{
+    display: none;
+}
+.plant-lover{
+    flex-direction: column;
+}
+/*latest deals*/
+.latest-deals{
+    flex-direction: column;
+}
+/*footer*/
+.f-flower{
+    flex-direction: column;
+}
+
 }
